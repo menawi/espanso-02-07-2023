@@ -1,0 +1,23 @@
+# Keyboard Layout.yml
+
+matches:
+
+  - trigger: '.'
+    replace: "c"
+
+
+  - trigger: 'm'
+    replace: 'h'
+
+  - trigger: ';'
+    replace: "m"
+
+
+  - trigger: 'v'
+    replace: "d"
+  
+  - trigger: 'd'
+    replace: 'v'
+
+  - trigger: 'x'
+    replace: "b"

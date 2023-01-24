@@ -1,0 +1,513 @@
+# Made using this goog sht https://docs.google.com/spreadsheets/d/117xKkLmgd5tEwRTogc1iHnrKJ3pedRRUlzgTpkfj-gk/edit?usp=sharing
+
+
+matches:
+
+  - trigger : 	"Abslt"
+    replace: 	"Absolute"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Actvst"
+    replace: 	"Activist"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Adqt"
+    replace: 	"Adequate"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Allnc"
+    replace: 	"Alliance"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Anythng"
+    replace: 	"Anything"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Apprvl"
+    replace: 	"Approval"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Atttd"
+    replace: 	"Attitude"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Brthdy"
+    replace: 	"Birthday"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Cmpgn"
+    replace: 	"Campaign"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Chmpn"
+    replace: 	"Champion"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Clthng"
+    replace: 	"Clothing"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Cmprs"
+    replace: 	"Comprise"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Cnflct"
+    replace: 	"Conflict"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Cnsdr"
+    replace: 	"Consider"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Cntrct"
+    replace: 	"Contract"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Crrdr"
+    replace: 	"Corridor"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Crtv"
+    replace: 	"Creative"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Crtcl"
+    replace: 	"Critical"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Cstmr"
+    replace: 	"Customer"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Dylght"
+    replace: 	"Daylight"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Dcrs"
+    replace: 	"Decrease"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Dlvry"
+    replace: 	"Delivery"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Dbts"
+    replace: 	"Diabetes"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Drctr"
+    replace: 	"Director"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Dscls"
+    replace: 	"Disclose"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Dspsl"
+    replace: 	"Disposal"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Dvdnd"
+    replace: 	"Dividend"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Dmstc"
+    replace: 	"Domestic"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Drmtc"
+    replace: 	"Dramatic"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Dynmcs"
+    replace: 	"Dynamics"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Edctr"
+    replace: 	"Educator"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Elctrc"
+    replace: 	"Electric"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Emphss"
+    replace: 	"Emphasis"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Enggng"
+    replace: 	"Engaging"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Entrnc"
+    replace: 	"Entrance"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Estmt"
+    replace: 	"Estimate"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Evryn"
+    replace: 	"Everyone"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Exrcs"
+    replace: 	"Exercise"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Extndd"
+    replace: 	"Extended"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Fvrt"
+    replace: 	"Favorite"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Fghtng"
+    replace: 	"Fighting"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Flxbl"
+    replace: 	"Flexible"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Frcst"
+    replace: 	"Forecast"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Frctn"
+    replace: 	"Fraction"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Frntr"
+    replace: 	"Frontier"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Gnmcs"
+    replace: 	"Genomics"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Grphcs"
+    replace: 	"Graphics"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Gdnc"
+    replace: 	"Guidance"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Hrtg"
+    replace: 	"Heritage"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Hmpg"
+    replace: 	"Homepage"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Idntty"
+    replace: 	"Identity"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Incldd"
+    replace: 	"Included"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Indstry"
+    replace: 	"Industry"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Intt"
+    replace: 	"Initiate"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Intgrl"
+    replace: 	"Integral"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Intrr"
+    replace: 	"Interior"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Intmt"
+    replace: 	"Intimate"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Invlvd"
+    replace: 	"Involved"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Jnctn"
+    replace: 	"Junction"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Lghtr"
+    replace: 	"Laughter"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Lghtng"
+    replace: 	"Lighting"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Lctn"
+    replace: 	"Location"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Mjrty"
+    replace: 	"Majority"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Mtrty"
+    replace: 	"Maturity"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Mdcn"
+    replace: 	"Medicine"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Mdnght"
+    replace: 	"Midnight"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Mnstry"
+    replace: 	"Ministry"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Mdrt"
+    replace: 	"Moderate"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Mrtgg"
+    replace: 	"Mortgage"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Mltpl"
+    replace: 	"Multiple"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Nghbr"
+    replace: 	"Neighbor"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Ntbk"
+    replace: 	"Notebook"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Offrng"
+    replace: 	"Offering"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Oppnnt"
+    replace: 	"Opponent"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Ordnry"
+    replace: 	"Ordinary"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Ovrhd"
+    replace: 	"Overhead"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Pntng"
+    replace: 	"Painting"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Ptnc"
+    replace: 	"Patience"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Prsnl"
+    replace: 	"Personal"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Ppln"
+    replace: 	"Pipeline"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Plsr"
+    replace: 	"Pleasure"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Pstn"
+    replace: 	"Position"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Pnd"
+    replace: 	""
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Prgnnt"
+    replace: 	"Pregnant"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Prssr"
+    replace: 	"Pressure"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Prrty"
+    replace: 	"Priority"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Prdcr"
+    replace: 	"Producer"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Prprty"
+    replace: 	"Property"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Prtcl"
+    replace: 	"Protocol"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Pblcly"
+    replace: 	"Publicly"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Qstn"
+    replace: 	"Question"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Rcvr"
+    replace: 	"Receiver"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Rgstr"
+    replace: 	"Register"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Rlvnt"
+    replace: 	"Relevant"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Rmmbr"
+    replace: 	"Remember"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Rpblc"
+    replace: 	"Republic"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Rsrvd"
+    replace: 	"Reserved"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Rspns"
+    replace: 	"Response"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Rmntc"
+    replace: 	"Romantic"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Schdl"
+    replace: 	"Schedule"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Scrty"
+    replace: 	"Security"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Sqnc"
+    replace: 	"Sequence"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Shppng"
+    replace: 	"Shopping"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Sttd"
+    replace: 	"Situated"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Smbdy"
+    replace: 	"Somebody"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Spcfc"
+    replace: 	"Specific"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Stndrd"
+    replace: 	"Standard"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Strght"
+    replace: 	"Straight"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Strkng"
+    replace: 	"Striking"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Sbrbn"
+    replace: 	"Suburban"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Sppsd"
+    replace: 	"Supposed"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Srvvl"
+    replace: 	"Survival"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Symblc"
+    replace: 	"Symbolic"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Tlrd"
+    replace: 	"Tailored"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Txpyr"
+    replace: 	"Taxpayer"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Tndncy"
+    replace: 	"Tendency"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Thrtn"
+    replace: 	"Thirteen"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Tgthr"
+    replace: 	"Together"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Trnng"
+    replace: 	"Training"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Trngl"
+    replace: 	"Triangle"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Umbrll"
+    replace: 	"Umbrella"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Vctn"
+    replace: 	"Vacation"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Vctr"
+    replace: 	"Victoria"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Wknss"
+    replace: 	"Weakness"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Whrvr"
+    replace: 	"Wherever"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Wdlnd"
+    replace: 	"Woodland"
+    propagate_case : 	true
+    word :	true
+  - trigger : 	"Yrslf"
+    replace: 	"Yourself"
+    propagate_case : 	true
+    word :	true

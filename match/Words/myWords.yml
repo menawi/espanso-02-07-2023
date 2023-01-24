@@ -1,0 +1,558 @@
+# myWords
+
+
+matches:
+# A 📌
+  # - trigger: "word"
+  #   replace: "although"
+  #   propagate_case: true
+  #   word: true
+
+# B 📌
+
+# C 📌
+
+  - triggers: [dykw]
+    replace: 'Do you know where'
+
+  - trigger: "linz"
+    replace: "link"
+    propagate_case: true
+    word: true  
+
+  - trigger: "clprd"
+    replace: "clipboard"
+    propagate_case: true
+    word: true  
+
+  - trigger: "xvr"
+    replace: "however"
+    propagate_case: true
+    word: true
+
+  - trigger: "fore"
+    replace: "before"
+    propagate_case: true
+    word: true
+
+  - trigger: "ggl"
+    replace: "Google"
+    propagate_case: true
+    word: true
+
+  - trigger: "shts"
+    replace: "sheets"
+    propagate_case: true
+    word: true
+
+  - trigger: "riel.date"
+    replace: "Louis Riel (1844-1885)"
+    propagate_case: true
+    word: true
+
+
+  - trigger: "gov"
+    replace: "government"
+    propagate_case: true
+    word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  - trigger: "elmt"
+    replace: "element"
+    propagate_case: true
+    word: true
+
+  - trigger: "chldrn"
+    replace: "children"
+    propagate_case: true
+    word: true
+
+  - trigger: "sblg"
+    replace: "sibling"
+    propagate_case: true
+    word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+
+  # - trigger: "x01x0"
+  #   replace: ""
+  #   propagate_case: true
+  #   word: true
+

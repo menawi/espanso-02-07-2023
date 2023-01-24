@@ -1,0 +1,9 @@
+# personal
+# for adding Islamic Arabic text
+
+matches:
+
+- trigger: "al7"
+  replace: "الحمدلله"
+  word: true
+

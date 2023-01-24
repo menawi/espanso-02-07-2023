@@ -1,0 +1,24 @@
+# for date and time
+# ⚠️IMPORTANT DOCUMENTATION SOURCE https://docs.rs/chrono/0.3.1/chrono/format/strftime/index.html
+
+matches:
+
+# - trigger: ":now"
+#   replace: "It's {{mytime}}"
+#   vars:
+#     - name: mytime
+#       type: date
+#       params:
+#         format: "%H:%M"
+# 35:12/18/22:2022
+
+- trigger: ";td;" # choose
+  replace: "{{mytime}}" # this is static (works for date and/or time)
+  vars:
+    - name: mytime # static
+      type: date # static
+      params:
+        format: "%A %B %d %Y" # choose
+
+
+

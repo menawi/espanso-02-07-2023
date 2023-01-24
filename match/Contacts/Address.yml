@@ -1,0 +1,34 @@
+# physical and web address
+
+# 📍WORK ADDRESSES
+
+matches:
+
+# name: Toronto PSC
+- trigger: "/torpsc/"
+  replace: "555 Richmond St W, Toronto, ON"
+  label: 'TORONTO PSC STREET ADDRESS'
+
+# name: Toronto PSC Postal Code
+- trigger: "/torpsc/"
+  replace: "M5V 3B1"
+  label: 'TORONTO PSC POSTAL CODE'
+
+
+
+#   📍 WORK WEBSITES 
+
+  # name: "Fulfillment Airtable"
+- trigger: "/at.ful/" 
+  replace: "https://airtable.com/appd1G6uztEMKkqEG/tblWhWY5ZhwClXqBH/viw2hb7EaVCM5u4yF?blocks=hide"
+
+
+# name: "Canada Airtable"
+- trigger: "/at.can/"
+  replace: "https://airtable.com/appTsSaxd1YFQJYiS/tblUcE8r0Ecirgxrd/viwrvuZKGgDYw8JcR?blocks=hide"
+
+
+# name: google docs main page
+
+- trigger: "/gdocs/"
+  replace: "https://docs.google.com/document/u/1/?mode=htmlß"

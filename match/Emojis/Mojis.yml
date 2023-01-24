@@ -1,0 +1,114 @@
+# EMOJIS
+
+# 🚨🚨MAKE SURE IF YOU ARE USING MULTI-TRIGGERS THEN USE triggers ➡️ DON'T FORGET THE S at the end or else it won't work !!!!!!!
+
+matches:
+
+- triggers: ["/pin/", "/PIN/"]
+  replace: "📌"
+
+- triggers: ["/pnt/", '/PNT/']
+  replace: "📍"
+
+
+- trigger: "/bull/"
+  replace: "🎯"
+
+- trigger: "/tag.r/"
+  replace: "🔖"
+
+- trigger: "/cut/"
+  replace: "✂️" 
+
+- trigger: "/pcl/"
+  replace: "✏️"
+
+- trigger: "/zap/" 
+  replace: "⚡"
+
+- trigger: "/lit/"
+  replace: "💡"
+
+- trigger: "/str/"
+  replace: "⭐"
+
+- trigger: "/dn/"
+  replace: "✅"
+
+- trigger: "/fire/"
+  replace: "🔥"
+
+- trigger: "/recy/"
+  replace: "♻️"
+
+- trigger: ">>"
+  replace: "➡️"
+  word: true
+
+- trigger: "<<"
+  replace: "⬅️"
+  word: true
+
+- trigger: "^^"
+  replace: "⬆️"
+  word: true
+
+- trigger: "/down/"
+  replace: "⬇️ "
+
+- trigger: "/can/"
+  replace: "🍁"
+
+- trigger: "/wrn/"
+  replace: "⚠️"
+
+- trigger: "/stp/"
+  replace: "🚫"
+
+- trigger: "/face1/"
+  replace: "🥸 Omar "
+
+- trigger: "/bot/"
+  replace: "🤖 GPT"
+
+- trigger: "/vid/"
+  replace: "📽️"
+
+#  en dash
+
+- trigger: "/--/"
+  replace: "–"
+
+# em dash
+
+- trigger: "/---/"
+  replace: "—"
+
+- trigger: "/alert/"
+  replace: "🚨"
+
+- trigger: "/bug/"
+  replace: "🪲"
+
+- trigger: "/bfly/"
+  replace: "🦋"
+
+
+
+# - trigger: " "
+#   replace: " "
+
+# - trigger: " "
+#   replace: " "
+
+# - trigger: " "
+#   replace: " "
+
+# - trigger: " "
+#   replace: " "
+
+# - trigger: " "
+#   replace: " "
+
+# - trigger: " "
+#   replace: " "

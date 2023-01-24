@@ -1,0 +1,192 @@
+matches:
+
+  - trigger: "sheets.frmla"
+    replace: "Write a formula in google sheets that $|$"
+
+  - trigger:  'ggl.scrpt'
+    replace: 'Write a google sheets appscript that $|$'
+ 
+  - trigger:  '0cht0'
+    replace: 'ques'
+ 
+  - trigger:  '++detail'
+    replace: 'Add more detail'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+   - trigger:  '0cht0'
+    replace: 'ques'
+ 
+  
