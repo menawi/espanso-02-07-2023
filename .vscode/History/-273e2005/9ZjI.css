@@ -1,0 +1,14 @@
+#gameBoard {
+     border: 3px solid;
+}
+
+#scoreText {
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 100px;
+}
+
+#resetButton {
+     font-family: 'Courier New', Courier, monospace;
+}
+
+;

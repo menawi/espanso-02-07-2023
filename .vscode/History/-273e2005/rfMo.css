@@ -1,0 +1,49 @@
+body {
+     background-color: black;
+}
+
+h1 {
+     text-align: center;
+}
+
+a {
+     text-align: center;
+     font-family: 'Times New Roman', Times, serif
+}
+
+/* body {  background-color: rgb(126, 126, 233);
+     align-items: center;
+}  */
+
+
+/* When you align the game container, the game block will align too. */
+#gameContainer {
+     text-align: center;
+     color: lightcoral;
+     font-size: 50px;
+     size: flex;
+}
+
+#gameBoard {
+     border: 3px solid;
+     background-color: pink;
+}
+
+#score {
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 50%;
+     color: white;
+
+
+}
+
+#resetButton {
+     font-family: "Permanent Marker";
+     font-size: 22px;
+     width: 100px;
+     height: 50px;
+     border: 4px;
+     border-radius: 15px;
+     cursor: pointer;
+     background-color: palevioletred;
+}

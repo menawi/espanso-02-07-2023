@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "/Users/omarmenawi/Desktop"
+		},
+		{
+			"path": "/Users/omarmenawi/Desktop/Folder 1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Desktop"
+	}
+}

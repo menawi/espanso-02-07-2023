@@ -1,0 +1,17 @@
+body {
+     background-color: black;
+     color: white;
+}
+
+header {
+     font-size: 25px;
+     color: aliceblue;
+}
+
+#headerlist {
+     font-size: 20px;
+}
+
+a {
+     color: skyblue;
+}

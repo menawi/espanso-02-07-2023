@@ -6,11 +6,17 @@ matches:
 # 🚨 PAY CLOSE ATTENTION TO THE EXACT SPACING OF EACH ELEMENT AND TO THE SPELLING AND ORDER OF EVERY ELEMENT AND WORD
 
 # 📌
-  - triggers: [/tr/]
+  - triggers: [/trs/]
     replace: '- triggers: [$|$]'
 
   - triggers: [/re/]
     replace: '  replace: "$|$"'
+
+  - trigger: '/tr/'
+    replace: >
+            - trigger: ''
+              replace: 
+
 
   - trigger: "/cp/"
     replace: "  replace: '{{clipboard}}' "

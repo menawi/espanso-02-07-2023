@@ -1,0 +1,14 @@
+{
+  "python.testing.pytestArgs": [
+    "OmarPy"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestArgs": [
+    "-v",
+    "-s",
+    "./OmarPy",
+    "-p",
+    "*test.py"
+  ]
+}

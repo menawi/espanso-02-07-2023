@@ -1,0 +1,34 @@
+{
+  "editor.fontSize": 16,
+  "files.autoSaveDelay": 5000,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "terminal.integrated.fontSize": 20,
+  "terminal.integrated.shellIntegration.enabled": true,
+  "emmet.includeLanguages": {
+    "edge": "html"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "[markdown]": {
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    // "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "other": "on",
+      "strings": "on",
+    },
+  },
+  "git.enableSmartCommit": true,
+  "explorer.confirmDragAndDrop": false,
+  "git.autofetch": true,
+  "explorer.confirmDelete": false,
+  "git.confirmSync": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "codeswing.layout": "preview",
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.formatOnSave": true,
+  "window.zoomLevel": -1
+  // "terminal.integrated.fontWeight": "normal"
+}
