@@ -12,6 +12,13 @@ matches:
 
 # C 📌
 
+;vsc ;vsc 
+
+  - trigger: ";vsc"
+    replace: ""Visual Studio Code""
+    # propagate_case: true
+    # word: true  
+
   - triggers: [dykw]
     replace: 'Do you know where'
 

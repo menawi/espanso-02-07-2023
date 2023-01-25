@@ -1,0 +1,14 @@
+matches:
+
+  # - trigger: 'mac'
+  #   replace: 
+
+  - trigger: 'mcopn'
+    form: |
+      [[choices]]
+    form_fields:
+      choices:
+        type: choice
+        values:
+        - open -a
+        - 
