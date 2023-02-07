@@ -36,10 +36,10 @@ matches:
    replace: beauty
    propagate_case: true
    word: true
- - trigger: order
-   replace: border
-   propagate_case: true
-   word: true
+#  - trigger: order
+#    replace: border
+#    propagate_case: true
+#    word: true
  - trigger: irthday
    replace: birthday
    propagate_case: true
