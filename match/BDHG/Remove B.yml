@@ -1,0 +1,666 @@
+matches:
+
+ - trigger: ecause
+   replace: because
+   propagate_case: true
+   word: true
+ - trigger: efore
+   replace: before
+   propagate_case: true
+   word: true   
+ - trigger: ecome
+   replace: become
+   propagate_case: true
+   word: true
+ - trigger: eyond
+   replace: beyond
+   propagate_case: true
+   word: true
+ - trigger: udget
+   replace: budget
+   propagate_case: true
+   word: true
+ - trigger: attle
+   replace: battle
+   propagate_case: true
+   word: true
+ - trigger: eside
+   replace: beside
+   propagate_case: true
+   word: true
+ - trigger: reath
+   replace: breath
+   propagate_case: true
+   word: true
+ - trigger: eauty
+   replace: beauty
+   propagate_case: true
+   word: true
+ - trigger: order
+   replace: border
+   propagate_case: true
+   word: true
+ - trigger: irthday
+   replace: birthday
+   propagate_case: true
+   word: true
+ - trigger: esides
+   replace: besides
+   propagate_case: true
+   word: true
+ - trigger: other
+   replace: bother
+   propagate_case: true
+   word: true
+ - trigger: ernard
+   replace: bernard
+   propagate_case: true
+   word: true
+ - trigger: ackwards
+   replace: backwards
+   propagate_case: true
+   word: true
+ - trigger: arara
+   replace: barbara
+   propagate_case: true
+   word: true
+ - trigger: arrier
+   replace: barrier
+   propagate_case: true
+   word: true
+ - trigger: ureau
+   replace: bureau
+   propagate_case: true
+   word: true
+ - trigger: utler
+   replace: butler
+   propagate_case: true
+   word: true
+ - trigger: asket
+   replace: basket
+   propagate_case: true
+   word: true
+ - trigger: argain
+   replace: bargain
+   propagate_case: true
+   word: true
+ - trigger: oyfriend
+   replace: boyfriend
+   propagate_case: true
+   word: true
+ - trigger: ooklet
+   replace: booklet
+   propagate_case: true
+   word: true
+ - trigger: allot
+   replace: ballot
+   propagate_case: true
+   word: true
+ - trigger: ehavioural
+   replace: behavioural
+   propagate_case: true
+   word: true
+ - trigger: alcony
+   replace: balcony
+   propagate_case: true
+   word: true
+ - trigger: utcher
+   replace: butcher
+   propagate_case: true
+   word: true
+ - trigger: ulletin
+   replace: bulletin
+   propagate_case: true
+   word: true
+ - trigger: asement
+   replace: basement
+   propagate_case: true
+   word: true
+ - trigger: ilical
+   replace: biblical
+   propagate_case: true
+   word: true
+ - trigger: rightly
+   replace: brightly
+   propagate_case: true
+   word: true
+ - trigger: oiler
+   replace: boiler
+   propagate_case: true
+   word: true
+ - trigger: owler
+   replace: bowler
+   propagate_case: true
+   word: true
+ - trigger: oycott
+   replace: boycott
+   propagate_case: true
+   word: true
+ - trigger: arley
+   replace: barley
+   propagate_case: true
+   word: true
+ - trigger: ugger
+   replace: bugger
+   propagate_case: true
+   word: true
+ - trigger: eware
+   replace: beware
+   propagate_case: true
+   word: true
+ - trigger: urglary
+   replace: burglary
+   propagate_case: true
+   word: true
+ - trigger: ule
+   replace: bubble
+   propagate_case: true
+   word: true
+ - trigger: aseline
+   replace: baseline
+   propagate_case: true
+   word: true
+ - trigger: uild-up
+   replace: build-up
+   propagate_case: true
+   word: true
+ - trigger: etrayal
+   replace: betrayal
+   propagate_case: true
+   word: true
+ - trigger: udgetary
+   replace: budgetary
+   propagate_case: true
+   word: true
+ - trigger: aptist
+   replace: baptist
+   propagate_case: true
+   word: true
+ - trigger: aptism
+   replace: baptism
+   propagate_case: true
+   word: true
+ - trigger: ackdrop
+   replace: backdrop
+   propagate_case: true
+   word: true
+ - trigger: aseall
+   replace: baseball
+   propagate_case: true
+   word: true
+ - trigger: roadway
+   replace: broadway
+   propagate_case: true
+   word: true
+ - trigger: iographical
+   replace: biographical
+   propagate_case: true
+   word: true
+ - trigger: lackmail
+   replace: blackmail
+   propagate_case: true
+   word: true
+ - trigger: ackone
+   replace: backbone
+   propagate_case: true
+   word: true
+ - trigger: ereavement
+   replace: bereavement
+   propagate_case: true
+   word: true
+ - trigger: lossom
+   replace: blossom
+   propagate_case: true
+   word: true
+ - trigger: anquet
+   replace: banquet
+   propagate_case: true
+   word: true
+ - trigger: olivia
+   replace: bolivia
+   propagate_case: true
+   word: true
+ - trigger: latant
+   replace: blatant
+   propagate_case: true
+   word: true
+ - trigger: urrow
+   replace: burrow
+   propagate_case: true
+   word: true
+ - trigger: lueprint
+   replace: blueprint
+   propagate_case: true
+   word: true
+ - trigger: ravely
+   replace: bravely
+   propagate_case: true
+   word: true
+ - trigger: uffalo
+   replace: buffalo
+   propagate_case: true
+   word: true
+ - trigger: orrower
+   replace: borrower
+   propagate_case: true
+   word: true
+ - trigger: umper
+   replace: bumper
+   propagate_case: true
+   word: true
+ - trigger: ollocks
+   replace: bollocks
+   propagate_case: true
+   word: true
+ - trigger: lindly
+   replace: blindly
+   propagate_case: true
+   word: true
+ - trigger: omardment
+   replace: bombardment
+   propagate_case: true
+   word: true
+ - trigger: ackside
+   replace: backside
+   propagate_case: true
+   word: true
+ - trigger: rutally
+   replace: brutally
+   propagate_case: true
+   word: true
+ - trigger: edtime
+   replace: bedtime
+   propagate_case: true
+   word: true
+ - trigger: ehold
+   replace: behold
+   propagate_case: true
+   word: true
+ - trigger: usily
+   replace: busily
+   propagate_case: true
+   word: true
+ - trigger: oardroom
+   replace: boardroom
+   propagate_case: true
+   word: true
+ - trigger: eggar
+   replace: beggar
+   propagate_case: true
+   word: true
+ - trigger: lankly
+   replace: blankly
+   propagate_case: true
+   word: true
+ - trigger: arefoot
+   replace: barefoot
+   propagate_case: true
+   word: true
+ - trigger: ovine
+   replace: bovine
+   propagate_case: true
+   word: true
+ - trigger: almoral
+   replace: balmoral
+   propagate_case: true
+   word: true
+ - trigger: lackird
+   replace: blackbird
+   propagate_case: true
+   word: true
+ - trigger: limey
+   replace: blimey
+   propagate_case: true
+   word: true
+ - trigger: acklog
+   replace: backlog
+   propagate_case: true
+   word: true
+ - trigger: ologna
+   replace: bologna
+   propagate_case: true
+   word: true
+ - trigger: onnie
+   replace: bonnie
+   propagate_case: true
+   word: true
+ - trigger: ackstage
+   replace: backstage
+   propagate_case: true
+   word: true
+ - trigger: rooch
+   replace: brooch
+   propagate_case: true
+   word: true
+ - trigger: ourne
+   replace: bourne
+   propagate_case: true
+   word: true
+ - trigger: ismarck
+   replace: bismarck
+   propagate_case: true
+   word: true
+ - trigger: lackout
+   replace: blackout
+   propagate_case: true
+   word: true
+ - trigger: uddha
+   replace: buddha
+   propagate_case: true
+   word: true
+ - trigger: anter
+   replace: banter
+   propagate_case: true
+   word: true
+ - trigger: asilica
+   replace: basilica
+   propagate_case: true
+   word: true
+ - trigger: otanic
+   replace: botanic
+   propagate_case: true
+   word: true
+ - trigger: uilt-up
+   replace: built-up
+   propagate_case: true
+   word: true
+ - trigger: uyout
+   replace: buyout
+   propagate_case: true
+   word: true
+ - trigger: oyish
+   replace: boyish
+   propagate_case: true
+   word: true
+ - trigger: righten
+   replace: brighten
+   propagate_case: true
+   word: true
+ - trigger: arium
+   replace: barium
+   propagate_case: true
+   word: true
+ - trigger: atter
+   replace: batter
+   propagate_case: true
+   word: true
+ - trigger: ookcase
+   replace: bookcase
+   propagate_case: true
+   word: true
+ - trigger: oyhood
+   replace: boyhood
+   propagate_case: true
+   word: true
+ - trigger: anish
+   replace: banish
+   propagate_case: true
+   word: true
+ - trigger: edclothes
+   replace: bedclothes
+   propagate_case: true
+   word: true
+ - trigger: ooker
+   replace: booker
+   propagate_case: true
+   word: true
+ - trigger: rackish
+   replace: brackish
+   propagate_case: true
+   word: true
+ - trigger: iliographical
+   replace: bibliographical
+   propagate_case: true
+   word: true
+ - trigger: eaker
+   replace: beaker
+   propagate_case: true
+   word: true
+ - trigger: rainchild
+   replace: brainchild
+   propagate_case: true
+   word: true
+ - trigger: ackyard
+   replace: backyard
+   propagate_case: true
+   word: true
+ - trigger: allast
+   replace: ballast
+   propagate_case: true
+   word: true
+ - trigger: erserk
+   replace: berserk
+   propagate_case: true
+   word: true
+ - trigger: avarian
+   replace: bavarian
+   propagate_case: true
+   word: true
+ - trigger: lithely
+   replace: blithely
+   propagate_case: true
+   word: true
+ - trigger: eamish
+   replace: beamish
+   propagate_case: true
+   word: true
+ - trigger: arel
+   replace: barbel
+   propagate_case: true
+   word: true
+ - trigger: udgie
+   replace: budgie
+   propagate_case: true
+   word: true
+ - trigger: everage
+   replace: beverage
+   propagate_case: true
+   word: true
+ - trigger: ye-law
+   replace: bye-law
+   propagate_case: true
+   word: true
+ - trigger: otanist
+   replace: botanist
+   propagate_case: true
+   word: true
+ - trigger: ramle
+   replace: bramble
+   propagate_case: true
+   word: true
+ - trigger: eadle
+   replace: beadle
+   propagate_case: true
+   word: true
+ - trigger: loodstained
+   replace: bloodstained
+   propagate_case: true
+   word: true
+ - trigger: omshell
+   replace: bombshell
+   propagate_case: true
+   word: true
+ - trigger: attleground
+   replace: battleground
+   propagate_case: true
+   word: true
+ - trigger: oathouse
+   replace: boathouse
+   propagate_case: true
+   word: true
+ - trigger: laster
+   replace: blaster
+   propagate_case: true
+   word: true
+ - trigger: rokerage
+   replace: brokerage
+   propagate_case: true
+   word: true
+ - trigger: razier
+   replace: brazier
+   propagate_case: true
+   word: true
+ - trigger: ottomless
+   replace: bottomless
+   propagate_case: true
+   word: true
+ - trigger: elievale
+   replace: believable
+   propagate_case: true
+   word: true
+ - trigger: oardman
+   replace: boardman
+   propagate_case: true
+   word: true
+ - trigger: reezy
+   replace: breezy
+   propagate_case: true
+   word: true
+ - trigger: assoon
+   replace: bassoon
+   propagate_case: true
+   word: true
+ - trigger: ulkhead
+   replace: bulkhead
+   propagate_case: true
+   word: true
+ - trigger: oatman
+   replace: boatman
+   propagate_case: true
+   word: true
+ - trigger: estseller
+   replace: bestseller
+   propagate_case: true
+   word: true
+ - trigger: ureaucrat
+   replace: bureaucrat
+   propagate_case: true
+   word: true
+ - trigger: aritone
+   replace: baritone
+   propagate_case: true
+   word: true
+ - trigger: ackwardness
+   replace: backwardness
+   propagate_case: true
+   word: true
+ - trigger: aleful
+   replace: baleful
+   propagate_case: true
+   word: true
+ - trigger: ystander
+   replace: bystander
+   propagate_case: true
+   word: true
+ - trigger: antam
+   replace: bantam
+   propagate_case: true
+   word: true
+ - trigger: acker
+   replace: backer
+   propagate_case: true
+   word: true
+ - trigger: arie
+   replace: barbie
+   propagate_case: true
+   word: true
+ - trigger: ack-to-ack
+   replace: back-to-back
+   propagate_case: true
+   word: true
+ - trigger: etterment
+   replace: betterment
+   propagate_case: true
+   word: true
+ - trigger: eehive
+   replace: beehive
+   propagate_case: true
+   word: true
+ - trigger: ulous
+   replace: bulbous
+   propagate_case: true
+   word: true
+ - trigger: onhomie
+   replace: bonhomie
+   propagate_case: true
+   word: true
+ - trigger: ackcloth
+   replace: backcloth
+   propagate_case: true
+   word: true
+ - trigger: lood-red
+   replace: blood-red
+   propagate_case: true
+   word: true
+ - trigger: iogeography
+   replace: biogeography
+   propagate_case: true
+   word: true
+ - trigger: roadsheet
+   replace: broadsheet
+   propagate_case: true
+   word: true
+ - trigger: aloa
+   replace: balboa
+   propagate_case: true
+   word: true
+ - trigger: istale
+   replace: bistable
+   propagate_case: true
+   word: true
+ - trigger: illet
+   replace: billet
+   propagate_case: true
+   word: true
+ - trigger: asolateral
+   replace: basolateral
+   propagate_case: true
+   word: true
+ - trigger: edlam
+   replace: bedlam
+   propagate_case: true
+   word: true
+ - trigger: uy-in
+   replace: buy-in
+   propagate_case: true
+   word: true
+ - trigger: ulldozer
+   replace: bulldozer
+   propagate_case: true
+   word: true
+ - trigger: ookie
+   replace: bookie
+   propagate_case: true
+   word: true
+ - trigger: utyrate
+   replace: butyrate
+   propagate_case: true
+   word: true
+ - trigger: loodshot
+   replace: bloodshot
+   propagate_case: true
+   word: true
+ - trigger: ailie
+   replace: bailie
+   propagate_case: true
+   word: true
+ - trigger: rindle
+   replace: brindle
+   propagate_case: true
+   word: true
+ - trigger: elittle
+   replace: belittle
+   propagate_case: true
+   word: true
+ - trigger: lueird
+   replace: bluebird
+   propagate_case: true
+   word: true
+ - trigger: lackwood
+   replace: blackwood
+   propagate_case: true
+   word: true
+ - trigger: itchy
+   replace: bitchy
+   propagate_case: true
+   word: true

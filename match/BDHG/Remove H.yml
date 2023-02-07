@@ -1,0 +1,771 @@
+
+matches:
+
+ - trigger: owever
+   replace: however
+   propagate_case: true
+   word: true
+ - trigger: igly
+   replace: highly
+   propagate_case: true
+   word: true
+ - trigger: istorical
+   replace: historical
+   propagate_case: true
+   word: true
+ - trigger: anle
+   replace: handle
+   propagate_case: true
+   word: true
+ - trigger: onest
+   replace: honest
+   propagate_case: true
+   word: true
+ - trigger: umour
+   replace: humour
+   propagate_case: true
+   word: true
+ - trigger: eritage
+   replace: heritage
+   propagate_case: true
+   word: true
+ - trigger: appily
+   replace: happily
+   propagate_case: true
+   word: true
+ - trigger: ostile
+   replace: hostile
+   propagate_case: true
+   word: true
+ - trigger: ollan
+   replace: holland
+   propagate_case: true
+   word: true
+ - trigger: istorian
+   replace: historian
+   propagate_case: true
+   word: true
+ - trigger: anicap
+   replace: handicap
+   propagate_case: true
+   word: true
+ - trigger: igligt
+   replace: highlight
+   propagate_case: true
+   word: true
+ - trigger: ammer
+   replace: hammer
+   propagate_case: true
+   word: true
+ - trigger: omeless
+   replace: homeless
+   propagate_case: true
+   word: true
+ - trigger: atre
+   replace: hatred
+   propagate_case: true
+   word: true
+ - trigger: emispere
+   replace: hemisphere
+   propagate_case: true
+   word: true
+ - trigger: astings
+   replace: hastings
+   propagate_case: true
+   word: true
+ - trigger: omework
+   replace: homework
+   propagate_case: true
+   word: true
+ - trigger: ygiene
+   replace: hygiene
+   propagate_case: true
+   word: true
+ - trigger: eral
+   replace: herald
+   propagate_case: true
+   word: true
+ - trigger: ousework
+   replace: housework
+   propagate_case: true
+   word: true
+ - trigger: arsip
+   replace: hardship
+   propagate_case: true
+   word: true
+ - trigger: ierarcical
+   replace: hierarchical
+   propagate_case: true
+   word: true
+ - trigger: ankercief
+   replace: handkerchief
+   propagate_case: true
+   word: true
+ - trigger: ockey
+   replace: hockey
+   propagate_case: true
+   word: true
+ - trigger: umiliation
+   replace: humiliation
+   propagate_case: true
+   word: true
+ - trigger: esitate
+   replace: hesitate
+   propagate_case: true
+   word: true
+ - trigger: ostel
+   replace: hostel
+   propagate_case: true
+   word: true
+ - trigger: alf-time
+   replace: half-time
+   propagate_case: true
+   word: true
+ - trigger: umanitarian
+   replace: humanitarian
+   propagate_case: true
+   word: true
+ - trigger: ormone
+   replace: hormone
+   propagate_case: true
+   word: true
+ - trigger: eavyweigt
+   replace: heavyweight
+   propagate_case: true
+   word: true
+ - trigger: insigt
+   replace: hindsight
+   propagate_case: true
+   word: true
+ - trigger: ysterical
+   replace: hysterical
+   propagate_case: true
+   word: true
+ - trigger: ooker
+   replace: hooker
+   propagate_case: true
+   word: true
+ - trigger: eterosexual
+   replace: heterosexual
+   propagate_case: true
+   word: true
+ - trigger: ig-spee
+   replace: high-speed
+   propagate_case: true
+   word: true
+ - trigger: arsly
+   replace: harshly
+   propagate_case: true
+   word: true
+ - trigger: eavenly
+   replace: heavenly
+   propagate_case: true
+   word: true
+ - trigger: egemony
+   replace: hegemony
+   propagate_case: true
+   word: true
+ - trigger: encefort
+   replace: henceforth
+   propagate_case: true
+   word: true
+ - trigger: aemoglobin
+   replace: haemoglobin
+   propagate_case: true
+   word: true
+ - trigger: orticultural
+   replace: horticultural
+   propagate_case: true
+   word: true
+ - trigger: elper
+   replace: helper
+   propagate_case: true
+   word: true
+ - trigger: artley
+   replace: hartley
+   propagate_case: true
+   word: true
+ - trigger: iner
+   replace: hinder
+   propagate_case: true
+   word: true
+ - trigger: eterogeneous
+   replace: heterogeneous
+   propagate_case: true
+   word: true
+ - trigger: ysteria
+   replace: hysteria
+   propagate_case: true
+   word: true
+ - trigger: ooper
+   replace: hooper
+   propagate_case: true
+   word: true
+ - trigger: igness
+   replace: highness
+   propagate_case: true
+   word: true
+ - trigger: orizontally
+   replace: horizontally
+   propagate_case: true
+   word: true
+ - trigger: angover
+   replace: hangover
+   propagate_case: true
+   word: true
+ - trigger: eaway
+   replace: headway
+   propagate_case: true
+   word: true
+ - trigger: eyay
+   replace: heyday
+   propagate_case: true
+   word: true
+ - trigger: erbal
+   replace: herbal
+   propagate_case: true
+   word: true
+ - trigger: angar
+   replace: hangar
+   propagate_case: true
+   word: true
+ - trigger: elpline
+   replace: helpline
+   propagate_case: true
+   word: true
+ - trigger: i-tec
+   replace: hi-tech
+   propagate_case: true
+   word: true
+ - trigger: abitually
+   replace: habitually
+   propagate_case: true
+   word: true
+ - trigger: asten
+   replace: hasten
+   propagate_case: true
+   word: true
+ - trigger: otline
+   replace: hotline
+   propagate_case: true
+   word: true
+ - trigger: arcore
+   replace: hardcore
+   propagate_case: true
+   word: true
+ - trigger: otspur
+   replace: hotspur
+   propagate_case: true
+   word: true
+ - trigger: esitantly
+   replace: hesitantly
+   propagate_case: true
+   word: true
+ - trigger: egerow
+   replace: hedgerow
+   propagate_case: true
+   word: true
+ - trigger: ig-performance
+   replace: high-performance
+   propagate_case: true
+   word: true
+ - trigger: umanism
+   replace: humanism
+   propagate_case: true
+   word: true
+ - trigger: iglaner
+   replace: highlander
+   propagate_case: true
+   word: true
+ - trigger: ansake
+   replace: handshake
+   propagate_case: true
+   word: true
+ - trigger: yacint
+   replace: hyacinth
+   propagate_case: true
+   word: true
+ - trigger: alf-earte
+   replace: half-hearted
+   propagate_case: true
+   word: true
+ - trigger: inrance
+   replace: hindrance
+   propagate_case: true
+   word: true
+ - trigger: ormonal
+   replace: hormonal
+   propagate_case: true
+   word: true
+ - trigger: ig-risk
+   replace: high-risk
+   propagate_case: true
+   word: true
+ - trigger: elpfully
+   replace: helpfully
+   propagate_case: true
+   word: true
+ - trigger: ybriization
+   replace: hybridization
+   propagate_case: true
+   word: true
+ - trigger: abituation
+   replace: habituation
+   propagate_case: true
+   word: true
+ - trigger: abitation
+   replace: habitation
+   propagate_case: true
+   word: true
+ - trigger: orsesoe
+   replace: horseshoe
+   propagate_case: true
+   word: true
+ - trigger: umankin
+   replace: humankind
+   propagate_case: true
+   word: true
+ - trigger: ig-rise
+   replace: high-rise
+   propagate_case: true
+   word: true
+ - trigger: istology
+   replace: histology
+   propagate_case: true
+   word: true
+ - trigger: orticulture
+   replace: horticulture
+   propagate_case: true
+   word: true
+ - trigger: yrocarbon
+   replace: hydrocarbon
+   propagate_case: true
+   word: true
+ - trigger: ygienic
+   replace: hygienic
+   propagate_case: true
+   word: true
+ - trigger: ouseoler
+   replace: householder
+   propagate_case: true
+   word: true
+ - trigger: ans-on
+   replace: hands-on
+   propagate_case: true
+   word: true
+ - trigger: istoricism
+   replace: historicism
+   propagate_case: true
+   word: true
+ - trigger: eriot
+   replace: heriot
+   propagate_case: true
+   word: true
+ - trigger: yrocloric
+   replace: hydrochloric
+   propagate_case: true
+   word: true
+ - trigger: anset
+   replace: handset
+   propagate_case: true
+   word: true
+ - trigger: arboar
+   replace: hardboard
+   propagate_case: true
+   word: true
+ - trigger: otelier
+   replace: hotelier
+   propagate_case: true
+   word: true
+ - trigger: ealer
+   replace: healer
+   propagate_case: true
+   word: true
+ - trigger: egemonic
+   replace: hegemonic
+   propagate_case: true
+   word: true
+ - trigger: ummingbir
+   replace: hummingbird
+   propagate_case: true
+   word: true
+ - trigger: illtop
+   replace: hilltop
+   propagate_case: true
+   word: true
+ - trigger: omemae
+   replace: homemade
+   propagate_case: true
+   word: true
+ - trigger: alf-life
+   replace: half-life
+   propagate_case: true
+   word: true
+ - trigger: oneysuckle
+   replace: honeysuckle
+   propagate_case: true
+   word: true
+ - trigger: earoom
+   replace: headroom
+   propagate_case: true
+   word: true
+ - trigger: yperbole
+   replace: hyperbole
+   propagate_case: true
+   word: true
+ - trigger: an-mae
+   replace: hand-made
+   propagate_case: true
+   word: true
+ - trigger: eifer
+   replace: heifer
+   propagate_case: true
+   word: true
+ - trigger: abitable
+   replace: habitable
+   propagate_case: true
+   word: true
+ - trigger: essian
+   replace: hessian
+   propagate_case: true
+   word: true
+ - trigger: ysterectomy
+   replace: hysterectomy
+   propagate_case: true
+   word: true
+ - trigger: eavy-ane
+   replace: heavy-handed
+   propagate_case: true
+   word: true
+ - trigger: arman
+   replace: hardman
+   propagate_case: true
+   word: true
+ - trigger: acker
+   replace: hacker
+   propagate_case: true
+   word: true
+ - trigger: armonise
+   replace: harmonise
+   propagate_case: true
+   word: true
+ - trigger: ereinafter
+   replace: hereinafter
+   propagate_case: true
+   word: true
+ - trigger: erbarium
+   replace: herbarium
+   propagate_case: true
+   word: true
+ - trigger: arbor
+   replace: harbor
+   propagate_case: true
+   word: true
+ - trigger: alf-ligt
+   replace: half-light
+   propagate_case: true
+   word: true
+ - trigger: air-raising
+   replace: hair-raising
+   propagate_case: true
+   word: true
+ - trigger: acksaw
+   replace: hacksaw
+   propagate_case: true
+   word: true
+ - trigger: umrum
+   replace: humdrum
+   propagate_case: true
+   word: true
+ - trigger: ypoxaemia
+   replace: hypoxaemia
+   propagate_case: true
+   word: true
+ - trigger: einous
+   replace: heinous
+   propagate_case: true
+   word: true
+ - trigger: osepipe
+   replace: hosepipe
+   propagate_case: true
+   word: true
+ - trigger: ickey
+   replace: hickey
+   propagate_case: true
+   word: true
+ - trigger: alf-back
+   replace: half-back
+   propagate_case: true
+   word: true
+ - trigger: alogen
+   replace: halogen
+   propagate_case: true
+   word: true
+ - trigger: alf-timbere
+   replace: half-timbered
+   propagate_case: true
+   word: true
+ - trigger: ig-pressure
+   replace: high-pressure
+   propagate_case: true
+   word: true
+ - trigger: atter
+   replace: hatter
+   propagate_case: true
+   word: true
+ - trigger: ibernation
+   replace: hibernation
+   propagate_case: true
+   word: true
+ - trigger: eretic
+   replace: heretic
+   propagate_case: true
+   word: true
+ - trigger: onourably
+   replace: honourably
+   propagate_case: true
+   word: true
+ - trigger: ousemai
+   replace: housemaid
+   propagate_case: true
+   word: true
+ - trigger: ippocampal
+   replace: hippocampal
+   propagate_case: true
+   word: true
+ - trigger: aematoxylin
+   replace: haematoxylin
+   propagate_case: true
+   word: true
+ - trigger: yrological
+   replace: hydrological
+   propagate_case: true
+   word: true
+ - trigger: easet
+   replace: headset
+   propagate_case: true
+   word: true
+ - trigger: omopobic
+   replace: homophobic
+   propagate_case: true
+   word: true
+ - trigger: alfpenny
+   replace: halfpenny
+   propagate_case: true
+   word: true
+ - trigger: anrail
+   replace: handrail
+   propagate_case: true
+   word: true
+ - trigger: arvester
+   replace: harvester
+   propagate_case: true
+   word: true
+ - trigger: omoclinic
+   replace: homoclinic
+   propagate_case: true
+   word: true
+ - trigger: alleluja
+   replace: hallelujah
+   propagate_case: true
+   word: true
+ - trigger: istoricity
+   replace: historicity
+   propagate_case: true
+   word: true
+ - trigger: yration
+   replace: hydration
+   propagate_case: true
+   word: true
+ - trigger: enceforwar
+   replace: henceforward
+   propagate_case: true
+   word: true
+ - trigger: epatocyte
+   replace: hepatocyte
+   propagate_case: true
+   word: true
+ - trigger: aemopilia
+   replace: haemophilia
+   propagate_case: true
+   word: true
+ - trigger: untsman
+   replace: huntsman
+   propagate_case: true
+   word: true
+ - trigger: earess
+   replace: headdress
+   propagate_case: true
+   word: true
+ - trigger: erbicie
+   replace: herbicide
+   propagate_case: true
+   word: true
+ - trigger: eart-stopping
+   replace: heart-stopping
+   propagate_case: true
+   word: true
+ - trigger: alf-term
+   replace: half-term
+   propagate_case: true
+   word: true
+ - trigger: oneye
+   replace: honeyed
+   propagate_case: true
+   word: true
+ - trigger: amble
+   replace: hamble
+   propagate_case: true
+   word: true
+ - trigger: yrology
+   replace: hydrology
+   propagate_case: true
+   word: true
+ - trigger: airspray
+   replace: hairspray
+   propagate_case: true
+   word: true
+ - trigger: ousemaster
+   replace: housemaster
+   propagate_case: true
+   word: true
+ - trigger: erbage
+   replace: herbage
+   propagate_case: true
+   word: true
+ - trigger: ereuner
+   replace: hereunder
+   propagate_case: true
+   word: true
+ - trigger: eapone
+   replace: headphone
+   propagate_case: true
+   word: true
+ - trigger: yrotermal
+   replace: hydrothermal
+   propagate_case: true
+   word: true
+ - trigger: ackneye
+   replace: hackneyed
+   propagate_case: true
+   word: true
+ - trigger: alf-price
+   replace: half-price
+   propagate_case: true
+   word: true
+ - trigger: anlebar
+   replace: handlebar
+   propagate_case: true
+   word: true
+ - trigger: ol-up
+   replace: hold-up
+   propagate_case: true
+   word: true
+ - trigger: eritable
+   replace: heritable
+   propagate_case: true
+   word: true
+ - trigger: aematological
+   replace: haematological
+   propagate_case: true
+   word: true
+ - trigger: illock
+   replace: hillock
+   propagate_case: true
+   word: true
+ - trigger: ypoxia
+   replace: hypoxia
+   propagate_case: true
+   word: true
+ - trigger: yperbolic
+   replace: hyperbolic
+   propagate_case: true
+   word: true
+ - trigger: emifiel
+   replace: hemifield
+   propagate_case: true
+   word: true
+ - trigger: ermetic
+   replace: hermetic
+   propagate_case: true
+   word: true
+ - trigger: ypnoterapist
+   replace: hypnotherapist
+   propagate_case: true
+   word: true
+ - trigger: unreweigt
+   replace: hundredweight
+   propagate_case: true
+   word: true
+ - trigger: ustler
+   replace: hustler
+   propagate_case: true
+   word: true
+ - trigger: ersman
+   replace: herdsman
+   propagate_case: true
+   word: true
+ - trigger: ysteresis
+   replace: hysteresis
+   propagate_case: true
+   word: true
+ - trigger: ousecoat
+   replace: housecoat
+   propagate_case: true
+   word: true
+ - trigger: umpback
+   replace: humpback
+   propagate_case: true
+   word: true
+ - trigger: aircare
+   replace: haircare
+   propagate_case: true
+   word: true
+ - trigger: istrionic
+   replace: histrionic
+   propagate_case: true
+   word: true
+ - trigger: anicapper
+   replace: handicapper
+   propagate_case: true
+   word: true
+ - trigger: urra
+   replace: hurrah
+   propagate_case: true
+   word: true
+ - trigger: encman
+   replace: henchman
+   propagate_case: true
+   word: true
+ - trigger: anball
+   replace: handball
+   propagate_case: true
+   word: true
+ - trigger: yroclorie
+   replace: hydrochloride
+   propagate_case: true
+   word: true
+ - trigger: ypotonic
+   replace: hypotonic
+   propagate_case: true
+   word: true
+ - trigger: oarseness
+   replace: hoarseness
+   propagate_case: true
+   word: true
+ - trigger: olograpic
+   replace: holographic
+   propagate_case: true
+   word: true
+ - trigger: ypoxaemic
+   replace: hypoxaemic
+   propagate_case: true
+   word: true
+ - trigger: anpainte
+   replace: handpainted
+   propagate_case: true
+   word: true
+ - trigger: urray
+   replace: hurray
+   propagate_case: true
+   word: true

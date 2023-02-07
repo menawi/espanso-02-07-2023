@@ -1,0 +1,1294 @@
+# Appsheet Expressions _ LOOKUP Type.yml
+
+matches:
+
+# LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+  - triggers: [=up , =UP]
+    replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+    vars:
+      - name: "UP"
+        type: form
+        params:
+          layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+
+# # LOOKUP([Inventory_Location Name], "Location", "*Location Name", "Location Address")
+
+# - triggers: [=up , =UP]
+#   replace: "LOOKUP ( [ {{UP.search_key_column}} ] ,   ' {{UP.lookup_table}} ' , ' {{UP.lookup_column}} ' , ' {{UP.return_column_value}} ' )"
+#   vars:
+#     - name: "UP"
+#       type: form
+#       params:
+#         layout: "search_key_column: [[search_key_column]] lookup_table: [[lookup_table]] lookup_column: [[lookup_column]]: return_column_value [[return_column_value]]"
+

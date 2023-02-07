@@ -1,0 +1,781 @@
+matches:
+
+
+ - trigger: ifferent
+   replace: different
+   propagate_case: true
+   word: true
+ - trigger: epartment
+   replace: department
+   propagate_case: true
+   word: true
+ - trigger: irector
+   replace: director
+   propagate_case: true
+   word: true
+ - trigger: eman
+   replace: demand
+   propagate_case: true
+   word: true
+ - trigger: ivision
+   replace: division
+   propagate_case: true
+   word: true
+ - trigger: irection
+   replace: direction
+   propagate_case: true
+   word: true
+ - trigger: ouble
+   replace: double
+   propagate_case: true
+   word: true
+ - trigger: ecie
+   replace: decide
+   propagate_case: true
+   word: true
+ - trigger: etail
+   replace: detail
+   propagate_case: true
+   word: true
+ - trigger: angerous
+   replace: dangerous
+   propagate_case: true
+   word: true
+ - trigger: ocument
+   replace: document
+   propagate_case: true
+   word: true
+ - trigger: ecline
+   replace: decline
+   propagate_case: true
+   word: true
+ - trigger: eputy
+   replace: deputy
+   propagate_case: true
+   word: true
+ - trigger: ecae
+   replace: decade
+   propagate_case: true
+   word: true
+ - trigger: epen
+   replace: depend
+   propagate_case: true
+   word: true
+ - trigger: istinct
+   replace: distinct
+   propagate_case: true
+   word: true
+ - trigger: ominant
+   replace: dominant
+   propagate_case: true
+   word: true
+ - trigger: isaster
+   replace: disaster
+   propagate_case: true
+   word: true
+ - trigger: arling
+   replace: darling
+   propagate_case: true
+   word: true
+ - trigger: estruction
+   replace: destruction
+   propagate_case: true
+   word: true
+ - trigger: istinctive
+   replace: distinctive
+   propagate_case: true
+   word: true
+ - trigger: esirable
+   replace: desirable
+   propagate_case: true
+   word: true
+ - trigger: efen
+   replace: defend
+   propagate_case: true
+   word: true
+ - trigger: iplomatic
+   replace: diplomatic
+   propagate_case: true
+   word: true
+ - trigger: eligt
+   replace: delight
+   propagate_case: true
+   word: true
+ - trigger: esperately
+   replace: desperately
+   propagate_case: true
+   word: true
+ - trigger: ecent
+   replace: decent
+   propagate_case: true
+   word: true
+ - trigger: ynamic
+   replace: dynamic
+   propagate_case: true
+   word: true
+ - trigger: ialogue
+   replace: dialogue
+   propagate_case: true
+   word: true
+ - trigger: imension
+   replace: dimension
+   propagate_case: true
+   word: true
+ - trigger: etective
+   replace: detective
+   propagate_case: true
+   word: true
+ - trigger: aniel
+   replace: daniel
+   propagate_case: true
+   word: true
+ - trigger: oorway
+   replace: doorway
+   propagate_case: true
+   word: true
+ - trigger: esktop
+   replace: desktop
+   propagate_case: true
+   word: true
+ - trigger: iversity
+   replace: diversity
+   propagate_case: true
+   word: true
+ - trigger: isappear
+   replace: disappear
+   propagate_case: true
+   word: true
+ - trigger: epenence
+   replace: dependence
+   propagate_case: true
+   word: true
+ - trigger: eserve
+   replace: deserve
+   propagate_case: true
+   word: true
+ - trigger: ocumentation
+   replace: documentation
+   propagate_case: true
+   word: true
+ - trigger: isavantage
+   replace: disadvantage
+   propagate_case: true
+   word: true
+ - trigger: ominance
+   replace: dominance
+   propagate_case: true
+   word: true
+ - trigger: ilemma
+   replace: dilemma
+   propagate_case: true
+   word: true
+ - trigger: ominate
+   replace: dominate
+   propagate_case: true
+   word: true
+ - trigger: islike
+   replace: dislike
+   propagate_case: true
+   word: true
+ - trigger: erive
+   replace: derive
+   propagate_case: true
+   word: true
+ - trigger: ifferentiation
+   replace: differentiation
+   propagate_case: true
+   word: true
+ - trigger: etection
+   replace: detection
+   propagate_case: true
+   word: true
+ - trigger: anis
+   replace: danish
+   propagate_case: true
+   word: true
+ - trigger: ecree
+   replace: decree
+   propagate_case: true
+   word: true
+ - trigger: epenency
+   replace: dependency
+   propagate_case: true
+   word: true
+ - trigger: istinctly
+   replace: distinctly
+   propagate_case: true
+   word: true
+ - trigger: eveloper
+   replace: developer
+   propagate_case: true
+   word: true
+ - trigger: iploma
+   replace: diploma
+   propagate_case: true
+   word: true
+ - trigger: efective
+   replace: defective
+   propagate_case: true
+   word: true
+ - trigger: enial
+   replace: denial
+   propagate_case: true
+   word: true
+ - trigger: ownwars
+   replace: downwards
+   propagate_case: true
+   word: true
+ - trigger: escriptive
+   replace: descriptive
+   propagate_case: true
+   word: true
+ - trigger: rastic
+   replace: drastic
+   propagate_case: true
+   word: true
+ - trigger: uoenal
+   replace: duodenal
+   propagate_case: true
+   word: true
+ - trigger: rougt
+   replace: drought
+   propagate_case: true
+   word: true
+ - trigger: isappearance
+   replace: disappearance
+   propagate_case: true
+   word: true
+ - trigger: ental
+   replace: dental
+   propagate_case: true
+   word: true
+ - trigger: elegate
+   replace: delegate
+   propagate_case: true
+   word: true
+ - trigger: isturb
+   replace: disturb
+   propagate_case: true
+   word: true
+ - trigger: ispose
+   replace: dispose
+   propagate_case: true
+   word: true
+ - trigger: ancer
+   replace: dancer
+   propagate_case: true
+   word: true
+ - trigger: issatisfaction
+   replace: dissatisfaction
+   propagate_case: true
+   word: true
+ - trigger: issent
+   replace: dissent
+   propagate_case: true
+   word: true
+ - trigger: ismay
+   replace: dismay
+   propagate_case: true
+   word: true
+ - trigger: eviation
+   replace: deviation
+   propagate_case: true
+   word: true
+ - trigger: efiance
+   replace: defiance
+   propagate_case: true
+   word: true
+ - trigger: isgrace
+   replace: disgrace
+   propagate_case: true
+   word: true
+ - trigger: igestion
+   replace: digestion
+   propagate_case: true
+   word: true
+ - trigger: igest
+   replace: digest
+   propagate_case: true
+   word: true
+ - trigger: egraation
+   replace: degradation
+   propagate_case: true
+   word: true
+ - trigger: raugt
+   replace: draught
+   propagate_case: true
+   word: true
+ - trigger: esmon
+   replace: desmond
+   propagate_case: true
+   word: true
+ - trigger: iagonal
+   replace: diagonal
+   propagate_case: true
+   word: true
+ - trigger: isposable
+   replace: disposable
+   propagate_case: true
+   word: true
+ - trigger: rastically
+   replace: drastically
+   propagate_case: true
+   word: true
+ - trigger: isplacement
+   replace: displacement
+   propagate_case: true
+   word: true
+ - trigger: rawing-room
+   replace: drawing-room
+   propagate_case: true
+   word: true
+ - trigger: istraction
+   replace: distraction
+   propagate_case: true
+   word: true
+ - trigger: epletion
+   replace: depletion
+   propagate_case: true
+   word: true
+ - trigger: urable
+   replace: durable
+   propagate_case: true
+   word: true
+ - trigger: early
+   replace: dearly
+   propagate_case: true
+   word: true
+ - trigger: efiant
+   replace: defiant
+   propagate_case: true
+   word: true
+ - trigger: issemination
+   replace: dissemination
+   propagate_case: true
+   word: true
+ - trigger: espatc
+   replace: despatch
+   propagate_case: true
+   word: true
+ - trigger: ustbin
+   replace: dustbin
+   propagate_case: true
+   word: true
+ - trigger: iocesan
+   replace: diocesan
+   propagate_case: true
+   word: true
+ - trigger: iscreetly
+   replace: discreetly
+   propagate_case: true
+   word: true
+ - trigger: ismissive
+   replace: dismissive
+   propagate_case: true
+   word: true
+ - trigger: inosaur
+   replace: dinosaur
+   propagate_case: true
+   word: true
+ - trigger: ispense
+   replace: dispense
+   propagate_case: true
+   word: true
+ - trigger: obson
+   replace: dobson
+   propagate_case: true
+   word: true
+ - trigger: ivergence
+   replace: divergence
+   propagate_case: true
+   word: true
+ - trigger: istract
+   replace: distract
+   propagate_case: true
+   word: true
+ - trigger: issimilar
+   replace: dissimilar
+   propagate_case: true
+   word: true
+ - trigger: ilute
+   replace: dilute
+   propagate_case: true
+   word: true
+ - trigger: eterminant
+   replace: determinant
+   propagate_case: true
+   word: true
+ - trigger: esirability
+   replace: desirability
+   propagate_case: true
+   word: true
+ - trigger: ownturn
+   replace: downturn
+   propagate_case: true
+   word: true
+ - trigger: esolate
+   replace: desolate
+   propagate_case: true
+   word: true
+ - trigger: eterrence
+   replace: deterrence
+   propagate_case: true
+   word: true
+ - trigger: iscar
+   replace: discard
+   propagate_case: true
+   word: true
+ - trigger: isperse
+   replace: disperse
+   propagate_case: true
+   word: true
+ - trigger: isproportionately
+   replace: disproportionately
+   propagate_case: true
+   word: true
+ - trigger: rizzle
+   replace: drizzle
+   propagate_case: true
+   word: true
+ - trigger: eceptive
+   replace: deceptive
+   propagate_case: true
+   word: true
+ - trigger: ressing-gown
+   replace: dressing-gown
+   propagate_case: true
+   word: true
+ - trigger: isgruntle
+   replace: disgruntled
+   propagate_case: true
+   word: true
+ - trigger: raper
+   replace: draper
+   propagate_case: true
+   word: true
+ - trigger: esignate
+   replace: designate
+   propagate_case: true
+   word: true
+ - trigger: isillusionment
+   replace: disillusionment
+   propagate_case: true
+   word: true
+ - trigger: evout
+   replace: devout
+   propagate_case: true
+   word: true
+ - trigger: ialectic
+   replace: dialectic
+   propagate_case: true
+   word: true
+ - trigger: istinctiveness
+   replace: distinctiveness
+   propagate_case: true
+   word: true
+ - trigger: urability
+   replace: durability
+   propagate_case: true
+   word: true
+ - trigger: isqualification
+   replace: disqualification
+   propagate_case: true
+   word: true
+ - trigger: owntown
+   replace: downtown
+   propagate_case: true
+   word: true
+ - trigger: eforestation
+   replace: deforestation
+   propagate_case: true
+   word: true
+ - trigger: roppings
+   replace: droppings
+   propagate_case: true
+   word: true
+ - trigger: omesay
+   replace: domesday
+   propagate_case: true
+   word: true
+ - trigger: estroyer
+   replace: destroyer
+   propagate_case: true
+   word: true
+ - trigger: isplace
+   replace: displace
+   propagate_case: true
+   word: true
+ - trigger: eligtfully
+   replace: delightfully
+   propagate_case: true
+   word: true
+ - trigger: eafness
+   replace: deafness
+   propagate_case: true
+   word: true
+ - trigger: elinquency
+   replace: delinquency
+   propagate_case: true
+   word: true
+ - trigger: eterminely
+   replace: determinedly
+   propagate_case: true
+   word: true
+ - trigger: ocile
+   replace: docile
+   propagate_case: true
+   word: true
+ - trigger: ispersion
+   replace: dispersion
+   propagate_case: true
+   word: true
+ - trigger: augter-in-law
+   replace: daughter-in-law
+   propagate_case: true
+   word: true
+ - trigger: auntless
+   replace: dauntless
+   propagate_case: true
+   word: true
+ - trigger: ebenture
+   replace: debenture
+   propagate_case: true
+   word: true
+ - trigger: raftsman
+   replace: draftsman
+   propagate_case: true
+   word: true
+ - trigger: efuse
+   replace: defuse
+   propagate_case: true
+   word: true
+ - trigger: ilapiate
+   replace: dilapidated
+   propagate_case: true
+   word: true
+ - trigger: enounce
+   replace: denounce
+   propagate_case: true
+   word: true
+ - trigger: isclaimer
+   replace: disclaimer
+   propagate_case: true
+   word: true
+ - trigger: efamation
+   replace: defamation
+   propagate_case: true
+   word: true
+ - trigger: epress
+   replace: depress
+   propagate_case: true
+   word: true
+ - trigger: omiciliary
+   replace: domiciliary
+   propagate_case: true
+   word: true
+ - trigger: reamy
+   replace: dreamy
+   propagate_case: true
+   word: true
+ - trigger: issuae
+   replace: dissuade
+   propagate_case: true
+   word: true
+ - trigger: anelion
+   replace: dandelion
+   propagate_case: true
+   word: true
+ - trigger: epopulation
+   replace: depopulation
+   propagate_case: true
+   word: true
+ - trigger: egeneration
+   replace: degeneration
+   propagate_case: true
+   word: true
+ - trigger: osage
+   replace: dosage
+   propagate_case: true
+   word: true
+ - trigger: istinctively
+   replace: distinctively
+   propagate_case: true
+   word: true
+ - trigger: raconian
+   replace: draconian
+   propagate_case: true
+   word: true
+ - trigger: etritus
+   replace: detritus
+   propagate_case: true
+   word: true
+ - trigger: igger
+   replace: digger
+   propagate_case: true
+   word: true
+ - trigger: urance
+   replace: durance
+   propagate_case: true
+   word: true
+ - trigger: ryness
+   replace: dryness
+   propagate_case: true
+   word: true
+ - trigger: iurnal
+   replace: diurnal
+   propagate_case: true
+   word: true
+ - trigger: isloge
+   replace: dislodge
+   propagate_case: true
+   word: true
+ - trigger: isseminate
+   replace: disseminate
+   propagate_case: true
+   word: true
+ - trigger: ereliction
+   replace: dereliction
+   propagate_case: true
+   word: true
+ - trigger: ampness
+   replace: dampness
+   propagate_case: true
+   word: true
+ - trigger: econstruction
+   replace: deconstruction
+   propagate_case: true
+   word: true
+ - trigger: ualism
+   replace: dualism
+   propagate_case: true
+   word: true
+ - trigger: ipole
+   replace: dipole
+   propagate_case: true
+   word: true
+ - trigger: eep-roote
+   replace: deep-rooted
+   propagate_case: true
+   word: true
+ - trigger: eputation
+   replace: deputation
+   propagate_case: true
+   word: true
+ - trigger: eciper
+   replace: decipher
+   propagate_case: true
+   word: true
+ - trigger: iabolical
+   replace: diabolical
+   propagate_case: true
+   word: true
+ - trigger: emonstrably
+   replace: demonstrably
+   propagate_case: true
+   word: true
+ - trigger: ecorator
+   replace: decorator
+   propagate_case: true
+   word: true
+ - trigger: evour
+   replace: devour
+   propagate_case: true
+   word: true
+ - trigger: isturbingly
+   replace: disturbingly
+   propagate_case: true
+   word: true
+ - trigger: isentangle
+   replace: disentangle
+   propagate_case: true
+   word: true
+ - trigger: utiful
+   replace: dutiful
+   propagate_case: true
+   word: true
+ - trigger: emonic
+   replace: demonic
+   propagate_case: true
+   word: true
+ - trigger: ecier
+   replace: decider
+   propagate_case: true
+   word: true
+ - trigger: eservely
+   replace: deservedly
+   propagate_case: true
+   word: true
+ - trigger: isprove
+   replace: disprove
+   propagate_case: true
+   word: true
+ - trigger: eluxe
+   replace: deluxe
+   propagate_case: true
+   word: true
+ - trigger: elirium
+   replace: delirium
+   propagate_case: true
+   word: true
+ - trigger: ynamo
+   replace: dynamo
+   propagate_case: true
+   word: true
+ - trigger: izziness
+   replace: dizziness
+   propagate_case: true
+   word: true
+ - trigger: ecompression
+   replace: decompression
+   propagate_case: true
+   word: true
+ - trigger: espairingly
+   replace: despairingly
+   propagate_case: true
+   word: true
+ - trigger: istally
+   replace: distally
+   propagate_case: true
+   word: true
+ - trigger: iffraction
+   replace: diffraction
+   propagate_case: true
+   word: true
+ - trigger: issonance
+   replace: dissonance
+   propagate_case: true
+   word: true
+ - trigger: elicatessen
+   replace: delicatessen
+   propagate_case: true
+   word: true
+ - trigger: isreputable
+   replace: disreputable
+   propagate_case: true
+   word: true
+ - trigger: isloyal
+   replace: disloyal
+   propagate_case: true
+   word: true
+ - trigger: reamily
+   replace: dreamily
+   propagate_case: true
+   word: true
+ - trigger: ual-purpose
+   replace: dual-purpose
+   propagate_case: true
+   word: true
+ - trigger: emonstrative
+   replace: demonstrative
+   propagate_case: true
+   word: true
+ - trigger: oger
+   replace: dodger
+   propagate_case: true
+   word: true
+ - trigger: issociate
+   replace: dissociate
+   propagate_case: true
+   word: true
+ - trigger: emonstrator
+   replace: demonstrator

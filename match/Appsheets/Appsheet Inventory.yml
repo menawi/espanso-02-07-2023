@@ -1,0 +1,46 @@
+matches:
+
+  # - trigger: ":form"
+  #   form: |
+  #     [[choices]]
+  #   form_fields:
+  #     choices:
+  #       type: list
+  #       values:
+  #         - First choice
+  #         - Second choice
+
+  - trigger: "/list1"
+    form: |
+      [[choices]]
+    form_fields:
+      choices:
+        type: list
+        values:
+          - Product
+          - LOT
+          - Location
+          - Inventory
+          - Cycle Count
+
+  - trigger: "/list2"
+    form: |
+      [[choices]]
+    form_fields:
+      choices:
+        type: list
+        values:
+          - Flowflex
+          - Lucira
+          - Remel PCR
+          - Gloves
+          - Gowns
+          - Masks
+
+
+
+
+
+
+
+          
