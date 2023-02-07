@@ -1,4 +1,0 @@
-matches:
-
-- triggers: [ esp.vs  ] 
-  replace: 'open -a "Visual Studio Code" /Users/Omar/Library/Application\ Support/espanso '
