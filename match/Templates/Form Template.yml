@@ -1,29 +1,25 @@
 # Form Template.yml
 
 matches:
-
   - trigger: ":form:"
     replace: >
-        - trigger: '$|$'
-          form: |
-             [[choices]]
-          form_fields:
-            choices:
-              type: choice
-              values:
-              - 1
-              - 2
-
+      - trigger: '$|$'
+        form: |
+           [[choices]]
+        form_fields:
+          choices:
+            type: choice
+            values:
+            - 1
+            - 2
 
   - trigger: "exprsn"
     replace: >
-        - triggers: [$|$]
-          replace: Method( {{.param_1}} {{.param_2}} {{.param_3}} {{.param_4}} )
-          vars:
-            - name: ""
-              type: form
-              params:
-              layout: " param_1 : [[param_1_value]] param_2 : [[param_2_value]]"
-              # add a variable in name: ""
-
-
+      - triggers: [$|$]
+        replace: Method( {{.param_1}} {{.param_2}} {{.param_3}} {{.param_4}} )
+        vars:
+          - name: ""
+            type: form
+            params:
+            layout: " param_1 : [[param_1_value]] param_2 : [[param_2_value]]"
+            # add a variable in name: ""

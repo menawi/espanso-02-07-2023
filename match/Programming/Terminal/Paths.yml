@@ -1,0 +1,18 @@
+
+
+
+matches:
+
+
+  - trigger: "esp.path"
+    replace: |
+              C:\Users\omar.elmenawi_flowhe\AppData\Roaming\espanso
+
+
+  - trigger: "esp.com"
+    replace: |
+              https://espanso.org/docs/matches/basics/
+
+
+
+

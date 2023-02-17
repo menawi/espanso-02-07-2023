@@ -1,0 +1,7 @@
+matches:
+
+
+- triggers: [ colog, cnlg, cnslg ]
+  replace: 'console.log($|$)'
+
+

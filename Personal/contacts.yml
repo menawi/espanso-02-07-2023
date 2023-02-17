@@ -1,0 +1,80 @@
+# contacts
+
+
+# name, phone, emails : @
+# finance : $
+# websites: name.xom
+# address : 
+
+matches: 
+
+  - trigger: "@xie"
+    form: |
+      [[choices]]
+    form_fields:
+      choices:
+        type: choice
+        values:
+        - Susan Xie
+        - susan.xie@flowhealth.com
+        - '4038281589'
+
+  - trigger: "@oe"
+    form: |
+      [[choices]]
+    form_fields:
+      choices:
+        type: choice
+        values:
+        - Omar Elmenawi
+        - omar.elmenawi@flowhealth.com
+        - omar.elmenawi+at@flowhealth.com
+
+  - trigger: "@om"
+    form: |
+      [[choices]]
+    form_fields:
+      choices:
+        type: choice
+        values:
+        - Omar Elmenawi
+        - omar.menawi@gmail.com
+        - '6479659670'
+        
+
+
+  - trigger: "$ramp"
+    form: |
+      [[choices]]
+    form_fields:
+      choices:
+        type: choice
+        values:
+        - '4148460199958233'
+        - '11/26'
+        - '711' 
+
+
+
+  # - trigger: ":form:"
+  #   replace: >
+  #       - trigger: '$|$'
+  #         form: |
+  #            [[choices]]
+  #         form_fields:
+  #           choices:
+  #             type: choice
+  #             values:
+  #             - 1
+  #             - 2
+
+
+# name: Toronto PSC
+  - trigger: "/torpsc/"
+    replace: "555 Richmond St W, Toronto, ON"
+    label: 'TORONTO PSC STREET ADDRESS'
+
+  # name: Toronto PSC Postal Code
+  - trigger: "/torpsc/"
+    replace: "M5V 3B1"
+    label: 'TORONTO PSC POSTAL CODE'
