@@ -1,0 +1,772 @@
+{
+  "New Snippet Template": {
+    "scope": "jsonc, json",
+    "prefix": "snip",
+    "body": [
+      "\"${1:Snippet Name}\": {",
+      "    \"prefix\": \"${3:prefix}\",",
+      "    \"body\": [",
+      "        \"${4:body}\",",
+      "    ],",
+      "}"
+    ]
+  },
+
+  // 📌JAVASCRIPT
+  "doc.elmentbyId": {
+    "scope": "javascript",
+    "prefix": "doc.id",
+    "body": "document.getElementById(\"${1:element_id}\")"
+    // "description": "thing"
+  },
+  "mathFloorRandom": {
+    "scope": " javascript,jsonc  ",
+    "prefix": "mathflrand",
+    "body": ["Math.floor(Math.random() ${0:variable?}) "]
+  },
+  "console.log()": {
+    "scope": " javascript,jsonc  ",
+    "prefix": ";log",
+    "body": ["console.log($1)"]
+  },
+  "doc.queryselector": {
+    "prefix": "doc.qs",
+    "body": ["document.querySelector($1)"]
+  },
+  "doc.querySelectorAll": {
+    "prefix": "doc.sa",
+    "body": ["document.querySelectorAll($1)"]
+  },
+  "script + source": {
+    "prefix": "scrpt",
+    "body": ["<script src='${1:src}'></script>"]
+  },
+  "let": {
+    "prefix": "L",
+    "body": ["let"]
+  },
+  "const": {
+    "prefix": "C",
+    "body": ["const ${1:name} = ${2:value}"]
+  },
+  "function": {
+    "prefix": "fn",
+    "body": ["function ${1:name}(${2:parameters}) { ${3:action}}"]
+  },
+  "arrowfunction": {
+    "prefix": "rf",
+    "body": ["const ${1:function name} = (${2:parameters} => ${3:actions} )"]
+  },
+
+  "import": {
+    "prefix": "imp",
+    "body": "import ${2:moduleName} from '${1:module}';$0",
+    "description": "Imports entire module statement in ES6 syntax"
+  },
+  "importNoModuleName": {
+    "prefix": "imn",
+    "body": "import '${1:module}';$0",
+    "description": "Imports entire module in ES6 syntax without module name"
+  },
+  "importDestructing": {
+    "prefix": "imd",
+    "body": "import { $2 } from '${1:module}';$0",
+    "description": "Imports only a portion of the module in ES6 syntax"
+  },
+  "importEverything": {
+    "prefix": "ime",
+    "body": "import * as ${2:alias} from '${1:module}';$0",
+    "description": "Imports everything as alias from the module in ES6 syntax"
+  },
+  "importAs": {
+    "prefix": "ima",
+    "body": "import { ${2:originalName} as ${3:alias} } from '${1:module}';$0",
+    "description": "Imports a specific portion of the module by assigning a local alias in ES6 syntax"
+  },
+  "require": {
+    "prefix": "rqr",
+    "body": "require('${1:package}');",
+    "description": "Require a package"
+  },
+  "requireToConst": {
+    "prefix": "req",
+    "body": "const ${1:packageName} = require('${1:package}');$0",
+    "description": "Require a package to const"
+  },
+  "moduleExports": {
+    "prefix": "mde",
+    "body": "module.exports = {\n\t$0\n};\n",
+    "description": "Module exports from Common JS, node syntax at ES6"
+  },
+  "exportNamedVariable": {
+    "prefix": "env",
+    "body": "export const ${1:exportVariable} = ${2:localVariable};\n",
+    "description": "Export named variable in ES6 syntax"
+  },
+  "exportNamedFunction": {
+    "prefix": "enf",
+    "body": "export const ${1:functionName} = (${2:params}) => {\n\t$0\n};\n",
+    "description": "Export named function in ES6 syntax"
+  },
+  "exportDefaultFunction": {
+    "prefix": "edf",
+    "body": "export default function ${1:${TM_FILENAME_BASE}}(${2:params}) {\n\t$0\n};\n",
+    "description": "Export default function in ES6 syntax"
+  },
+  "exportClass": {
+    "prefix": "ecl",
+    "body": "export default class ${1:className} {\n\t$0\n};\n",
+    "description": "Export default class in ES6 syntax"
+  },
+  "exportClassExtends": {
+    "prefix": "ece",
+    "body": "export default class ${1:className} extends ${2:baseclassName} {\n\t$0\n};\n",
+    "description": "Export default class which extends a base one in ES6 syntax"
+  },
+
+  "constructor": {
+    "prefix": "con",
+    "body": "constructor(${1:params}) {\n\t${0}\n}",
+    "description": "Add default constructor in a class in ES6 syntax"
+  },
+  "method": {
+    "prefix": "met",
+    "body": "${1:methodName}(${2:params}) {\n\t${0}\n}",
+    "description": "Creates a method inside a class in ES6 syntax"
+  },
+  "propertyGet": {
+    "prefix": "pge",
+    "body": "get ${1:propertyName}() {\n\treturn this.${0};\n}",
+    "description": "Creates a getter property inside a class in ES6 syntax"
+  },
+  "propertyset": {
+    "prefix": "pse",
+    "body": "set ${1:propertyName}(${2:value}) {\n\t${0};\n}",
+    "description": "Creates a setter property inside a class in ES6 syntax"
+  },
+
+  "forEach": {
+    "prefix": "fre",
+    "body": "${1:array}.forEach(${2:currentItem} => {\n\t${0}\n});",
+    "description": "Creates a forEach statement in ES6 syntax"
+  },
+  "forOf": {
+    "prefix": "fof",
+    "body": "for (const ${1:item} of ${2:object}) {\n\t${0}\n}",
+    "description": "Iterating over property names of iterable objects"
+  },
+  "forIn": {
+    "prefix": "fin",
+    "body": "for (const ${1:item} in ${2:object}) {\n\t${0}\n}",
+    "description": "Iterating over property values of iterable objects"
+  },
+  "anonymousFunction": {
+    "prefix": "anfn",
+    "body": "(${1:params}) => {\n\t${2}\n}",
+    "description": "Creates an anonymous function in ES6 syntax"
+  },
+  "namedFunction": {
+    "prefix": "nfn",
+    "body": "const ${1:name} = (${2:params}) => {\n\t${3}\n}",
+    "description": "Creates a named function in ES6 syntax"
+  },
+  "destructingObject": {
+    "prefix": "dob",
+    "body": "const {${2:propertyName}} = ${1:objectToDestruct};",
+    "description": "Creates and assigns a local variable using object destructing"
+  },
+  "destructingArray": {
+    "prefix": "dar",
+    "body": "const [${2:propertyName}] = ${1:arrayToDestruct};",
+    "description": "Creates and assigns a local variable using array destructing"
+  },
+  "setInterval": {
+    "prefix": "sti",
+    "body": "setInterval(() => {\n\t${2}\n}, ${0:intervalInms});",
+    "description": "Executes the given function at specified intervals in ES6 syntax"
+  },
+  "setTimeOut": {
+    "prefix": "sto",
+    "body": "setTimeout(() => {\n\t${2:func}\n},${1:delayInms});",
+    "description": "Executes the given function after the specified delay in ES6 syntax"
+  },
+  "promise": {
+    "prefix": "prom",
+    "body": "return new Promise((resolve, reject) => {\n\t${1}\n});",
+    "description": "Creates and returns a new Promise in the standard ES6 syntax"
+  },
+  "thenCatch": {
+    "prefix": "thenc",
+    "body": ".then((${1:result}) => {\n\t${2}\n}).catch((${3:err}) => {\n\t${4}\n});",
+    "description": "Add the .then and .catch methods to handle promises"
+  },
+
+  "consoleAssert": {
+    "prefix": "cas",
+    "body": "console.assert(${1:expression}, ${2:object});",
+    "description": "If the specified expression is false, the message is written to the console along with a stack trace"
+  },
+  "consoleClear": {
+    "prefix": "ccl",
+    "body": "console.clear();",
+    "description": "Clears the console"
+  },
+  "consoleCount": {
+    "prefix": "cco",
+    "body": "console.count(${1:label});",
+    "description": "Writes the the number of times that count() has been invoked at the same line and with the same label"
+  },
+  "consoleDebug": {
+    "prefix": "cdb",
+    "body": "console.debug(${1:object});",
+    "description": "Displays a message in the console. Also display a blue right arrow icon along with the logged message in Safari"
+  },
+  "consoleDir": {
+    "prefix": "cdi",
+    "body": "console.dir(${1:object});",
+    "description": "Prints a JavaScript representation of the specified object"
+  },
+  "consoleError": {
+    "prefix": "cer",
+    "body": "console.error(${1:object});",
+    "description": "Displays a message in the console and also includes a stack trace from where the method was called"
+  },
+  "consoleGroup": {
+    "prefix": "cgr",
+    "body": "console.group('${1:label}');",
+    "description": "Groups and indents all following output by an additional level, until console.groupEnd() is called."
+  },
+  "consoleGroupEnd": {
+    "prefix": "cge",
+    "body": "console.groupEnd();",
+    "description": "Closes out the corresponding console.group()."
+  },
+  "consoleLog": {
+    "prefix": "clg",
+    "body": "console.log(${1:object});",
+    "description": "Displays a message in the console"
+  },
+  "consoleLogObject": {
+    "prefix": "clo",
+    "body": "console.log('${1:object} :>> ', ${1:object});",
+    "description": "Displays an object in the console with its name"
+  },
+  "consoleTrace": {
+    "prefix": "ctr",
+    "body": "console.trace(${1:object});",
+    "description": "Prints a stack trace from the point where the method was called"
+  },
+  "consoleWarn": {
+    "prefix": "cwa",
+    "body": "console.warn(${1:object});",
+    "description": "Displays a message in the console but also displays a yellow warning icon along with the logged message"
+  },
+  "consoleInfo": {
+    "prefix": "cin",
+    "body": "console.info(${1:object});",
+    "description": "Displays a message in the console but also displays a blue information icon along with the logged message"
+  },
+  "consoleTable": {
+    "prefix": "clt",
+    "body": "console.table(${1:object});",
+    "description": "Displays tabular data as a table."
+  },
+  "consoleTime": {
+    "prefix": "cti",
+    "body": "console.time(${1:object});",
+    "description": "Sets starting point for execution time measurement"
+  },
+  "consoleTimeEnd": {
+    "prefix": "cte",
+    "body": "console.timeEnd(${1:object});",
+    "description": "Sets end point for execution time measurement"
+  },
+
+  "requestAnimationFrame()": {
+    "prefix": "reqframe",
+    "body": ["requestAnimationFrame(${1:enterFunctionName})"]
+  }
+
+  {
+    "m180": {
+        "prefix": "m180",
+        "body": " Math.PI / 180 * ",
+        "description": "Math.PI / 180 * "
+    },
+    "addColorStop": {
+        "prefix": "addColorStop",
+        "body": [
+            "${1}.addColorStop(${2:number}, '${3:color}');",
+            "${4}"
+        ],
+        "description": "ctx.addColorStop"
+    },
+    "arc": {
+        "prefix": "ctxArc",
+        "body": [
+            "ctx.arc(${1:x}, ${2:y}, ${3:radius}, ${4:Math.PI / 180 * }${5:startAngle}, ${6:Math.PI / 180 * }${7:endAngle}, ${8:anticlockwise});",
+            "${9}"
+        ],
+        "description": "ctx.arc"
+    },
+    "arcTo": {
+        "prefix": "ctxArcTo",
+        "body": [
+            "ctx.arcTo(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2}, ${5:radius});",
+            "${6}"
+        ],
+        "description": "ctx.arcTo"
+    },
+    "beginPath": {
+        "prefix": "ctxBeginPath",
+        "body": [
+            "ctx.beginPath();",
+            "${1}"
+        ],
+        "description": "ctx.strokeStyle"
+    },
+    "bezierCurveTo": {
+        "prefix": "ctxBezierCurveTo",
+        "body": [
+            "ctx.bezierCurveTo(${1:cp1x}, ${2:cp1y}, ${3:cp2x}, ${4:cp2y}, ${5:x}, ${6:y});",
+            "${7}"
+        ],
+        "description": "ctx.bezierCurveTo"
+    },
+    "clearRect": {
+        "prefix": "ctxClearRect",
+        "body": [
+            "ctx.clearRect(${1:x}, ${2:y}, ${3:width}, ${4:height});",
+            "${5}"
+        ],
+        "description": "ctx.clearRect"
+    },
+    "clip": {
+        "prefix": "ctxClip",
+        "body": [
+            "ctx.clip();",
+            "${1}"
+        ],
+        "description": "ctx.clip"
+    },
+    "closePath": {
+        "prefix": "ctxClosePath",
+        "body": [
+            "ctx.closePath();",
+            "${1}"
+        ],
+        "description": "ctx.closePath"
+    },
+    "createImageData": {
+        "prefix": "ctxCreateImageData",
+        "body": [
+            "ctx.createImageData(${1:width}, ${2:height});",
+            "${3}"
+        ],
+        "description": "ctx.createImageData"
+    },
+    "createLinearGradient": {
+        "prefix": "ctxCreateLinearGradient",
+        "body": [
+            "ctx.createLinearGradient(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2});",
+            "${5}"
+        ],
+        "description": "ctx.createLinearGradient"
+    },
+    "createPattern": {
+        "prefix": "ctxCreatePattern",
+        "body": [
+            "ctx.createPattern(${1:Image}, ${2:repetition});",
+            "${3}"
+        ],
+        "description": "ctx.createPattern \n\nimage:\n1. HTMLImageElement (<img>)\n2. HTMLVideoElement (<video>)\n3. HTMLCanvasElement (<canvas>)\n4. CanvasRenderingContext2D\n5. ImageBitmap\n6. ImageData, or a\n7. Blob.\n\nrepetition:\n1. repeat\n2. repeat-x\n3. repeat-y\n4. no-repeat"
+    },
+    "createRadialGradient": {
+        "prefix": "ctxCreateRadialGradient",
+        "body": [
+            "ctx.createRadialGradient(${1:x1}, ${2:y1}, ${3:r1}, ${4:x2}, ${5:y2}, ${6:r2});",
+            "${7}"
+        ],
+        "description": "ctx.createRadialGradient"
+    },
+    "direction": {
+        "prefix": "ctxDirection",
+        "body": [
+            "ctx.direction='${1:inherit | ltr | rtl}';",
+            "${2}"
+        ],
+        "description": "ctx.direction"
+    },
+    "drawFocusIfNeeded": {
+        "prefix": "ctxDrawFocusIfNeeded",
+        "body": [
+            "ctx.drawFocusIfNeeded(${1:path, }${2:element});",
+            "${3}"
+        ],
+        "description": "ctx.drawFocusIfNeeded"
+    },
+    "drawImage": {
+        "prefix": "ctxDrawImage",
+        "body": [
+            "ctx.drawImage(${1:Image}, ${2:dX}, ${3:dY}${4:, dWidth}${5:, dHeight});",
+            "${6}"
+        ],
+        "description": "ctx.drawImage"
+    },
+    "fill": {
+        "prefix": "ctxFill",
+        "body": [
+            "ctx.fill();",
+            "${1}"
+        ],
+        "description": "ctx.fill"
+    },
+    "fillRect": {
+        "prefix": "ctxFillRect",
+        "body": [
+            "ctx.fillRect(${1});",
+            "${2}"
+        ],
+        "description": "ctx.fillRect"
+    },
+    "fillStyle": {
+        "prefix": "ctxFillStyle",
+        "body": [
+            "ctx.fillStyle='${1:color | gradient | pattern}';",
+            "${2}"
+        ],
+        "description": "ctx.fillStyle"
+    },
+    "fillText": {
+        "prefix": "ctxFillText",
+        "body": [
+            "ctx.fillText(${1:text}, ${2:x}, ${3:y}${4:, maxWidth});",
+            "${5}"
+        ],
+        "description": "ctx.fillText"
+    },
+    "font": {
+        "prefix": "ctxFont",
+        "body": [
+            "ctx.font='${1:10}px ${2:sans-serif}';",
+            "${3}"
+        ],
+        "description": "ctx.font"
+    },
+    "getContext": {
+        "prefix": "getContext",
+        "body": [
+            "getContext('${1:2d}');",
+            "${2}"
+        ],
+        "description": "getContext"
+    },
+    "getImageData": {
+        "prefix": "ctxGetImageData",
+        "body": [
+            "ctx.getImageData(${1:sx}, ${2:sy}, ${3:sw}, ${4:sh});",
+            "${5}"
+        ],
+        "description": "ctx.getImageData"
+    },
+    "getLineDash": {
+        "prefix": "ctxGetLineDash",
+        "body": [
+            "ctx.getLineDash();",
+            "${1}"
+        ],
+        "description": "ctx.getLineDash"
+    },
+    "globalAlpha": {
+        "prefix": "ctxGlobalAlpha",
+        "body": [
+            "ctx.globalAlpha=${1:alpha};",
+            "${2}"
+        ],
+        "description": "ctx.globalAlpha"
+    },
+    "globalCompositeOperation": {
+        "prefix": "ctxGlobalCompositeOperation",
+        "body": [
+            "ctx.globalCompositeOperation='${1:source-over | copy | destination-in | destination-out | destination-over | lighter | source-atop | source-in | source-out | xor}';",
+            "${2}"
+        ],
+        "description": "ctx.globalCompositeOperation"
+    },
+    "imageSmoothingEnabled": {
+        "prefix": "ctxImageSmoothingEnabled",
+        "body": [
+            "ctx.mozImageSmoothingEnabled = ${1:true};",
+            "ctx.webkitImageSmoothingEnabled = ${1:true};",
+            "ctx.msImageSmoothingEnabled = ${1:true};",
+            "ctx.imageSmoothingEnabled = ${1:true};",
+            "${2}"
+        ],
+        "description": "ctx.imageSmoothingEnabled"
+    },
+    "isPointInPath": {
+        "prefix": "ctxIsPointInPath",
+        "body": [
+            "ctx.isPointInPath(${1:x}, ${2:y});",
+            "${3}"
+        ],
+        "description": "ctx.isPointInPath"
+    },
+    "isPointInStroke": {
+        "prefix": "ctxIsPointInStroke",
+        "body": [
+            "ctx.isPointInStroke(${1:path, }${2:x}, ${3:y});",
+            "${4}"
+        ],
+        "description": "ctx.isPointInStroke"
+    },
+    "lineCap": {
+        "prefix": "ctxLineCap",
+        "body": [
+            "ctx.lineCap='${1:butt | round | square}';",
+            "${2}"
+        ],
+        "description": "ctx.lineCap"
+    },
+    "lineDashOffset": {
+        "prefix": "ctxLineDashOffset",
+        "body": [
+            "ctx.lineDashOffset=${1:value};",
+            "${2}"
+        ],
+        "description": "ctx.lineDashOffset"
+    },
+    "lineJoin": {
+        "prefix": "ctxLineJoin",
+        "body": [
+            "ctx.lineJoin='${1:miter | bevel | round}';",
+            "${2}"
+        ],
+        "description": "ctx.lineJoin"
+    },
+    "lineTo": {
+        "prefix": "ctxLineTo",
+        "body": [
+            "ctx.lineTo(${1:x}, ${2:y});",
+            "${3}"
+        ],
+        "description": "ctx.lineTo"
+    },
+    "lineWidth": {
+        "prefix": "ctxLineWidth",
+        "body": [
+            "ctx.lineWidth=${1:width};",
+            "${2}"
+        ],
+        "description": "ctx.lineWidth"
+    },
+    "measureText": {
+        "prefix": "ctxMeasureText",
+        "body": [
+            "ctx.measureText(${1:text});",
+            "${2}"
+        ],
+        "description": "ctx.measureText"
+    },
+    "miterLimit": {
+        "prefix": "ctxMiterLimit",
+        "body": [
+            "ctx.miterLimit=${1:number};",
+            "${2}"
+        ],
+        "description": "ctx.miterLimit"
+    },
+    "moveTo": {
+        "prefix": "ctxMoveTo",
+        "body": [
+            "ctx.moveTo(${1:x}, ${2:y});",
+            "${3}"
+        ],
+        "description": "ctx.moveTo"
+    },
+    "putImageData": {
+        "prefix": "ctxPutImageData",
+        "body": [
+            "ctx.putImageData(${1:imagedata}, ${2:dx}, ${3:dy}${4:, dirtyX}${5:, dirtyY}${6:, dirtyWidth}${7:, dirtyHeight});",
+            "${8}"
+        ],
+        "description": "ctx.putImageData"
+    },
+    "quadraticCurveTo": {
+        "prefix": "ctxQuadraticCurveTo",
+        "body": [
+            "ctx.quadraticCurveTo(${1:cpx}, ${2:cpy}, ${3:x}, ${4:y});",
+            "${5}"
+        ],
+        "description": "ctx.quadraticCurveTo"
+    },
+    "rect": {
+        "prefix": "ctxRect",
+        "body": [
+            "ctx.rect(${1:x}, ${2:y}, ${3:width}, ${4:height});",
+            "${5}"
+        ],
+        "description": "ctx.rect"
+    },
+    "resetTransform": {
+        "prefix": "ctxResetTransform",
+        "body": [
+            "ctx.resetTransform();",
+            "${1}"
+        ],
+        "description": "ctx.resetTransform  \nYou can also use the CanvasRenderingContext2D.setTransform() method to reset the current transform to the identity matrix, like so:\ncontext.setTransform(1, 0, 0, 1, 0, 0);"
+    },
+    "restore": {
+        "prefix": "ctxRestore",
+        "body": [
+            "ctx.restore();",
+            "${1}"
+        ],
+        "description": "ctx.restore"
+    },
+    "rotate": {
+        "prefix": "ctxRotate",
+        "body": [
+            "ctx.rotate(${1:Math.PI / 180 * }${2:degree});",
+            "${3}"
+        ],
+        "description": "ctx.rotate"
+    },
+    "save": {
+        "prefix": "ctxSave",
+        "body": [
+            "ctx.save();",
+            "${1}"
+        ],
+        "description": "ctx.save"
+    },
+    "scale": {
+        "prefix": "ctxScale",
+        "body": [
+            "ctx.scale(${1:x}, ${2:y});",
+            "${3}"
+        ],
+        "description": "ctx.scale"
+    },
+    "setLineDash": {
+        "prefix": "ctxSetLineDash",
+        "body": [
+            "ctx.setLineDash([${1:Array}]);",
+            "${2}"
+        ],
+        "description": "ctx.setLineDash"
+    },
+    "setTransform": {
+        "prefix": "ctxSetTransform",
+        "body": [
+            "ctx.setTransform(${1:a}, ${2:b}, ${3:c}, ${4:d}, ${5:e}, ${6:f});",
+            "${7}"
+        ],
+        "description": "ctx.setTransform \n a: Horizontal scaling. \n b: Horizontal skewing. \n c: Vertical skewing. \n d: Vertical scaling. \n e: Horizontal moving. \n f: Vertical moving."
+    },
+    "shadowBlur": {
+        "prefix": "ctxShadowBlur",
+        "body": [
+            "ctx.shadowBlur=${1:blur};",
+            "${2}"
+        ],
+        "description": "ctx.shadowBlur"
+    },
+    "shadowColor": {
+        "prefix": "ctxShadowColor",
+        "body": [
+            "ctx.shadowColor='${1:color}';",
+            "${2}"
+        ],
+        "description": "ctx.shadowColor"
+    },
+    "shadowOffsetX": {
+        "prefix": "ctxShadowOffsetX",
+        "body": [
+            "ctx.shadowOffsetX=${1:x};",
+            "${2}"
+        ],
+        "description": "ctx.shadowOffsetX"
+    },
+    "shadowOffsetY": {
+        "prefix": "ctxShadowOffsetY",
+        "body": [
+            "ctx.shadowOffsetY=${1:y};",
+            "${2}"
+        ],
+        "description": "ctx.shadowOffsetY"
+    },
+    "stroke": {
+        "prefix": "ctxStroke",
+        "body": [
+            "ctx.stroke();",
+            "${1}"
+        ],
+        "description": "ctx.stroke"
+    },
+    "strokeRect": {
+        "prefix": "ctxStrokeRect",
+        "body": [
+            "ctx.strokeRect(${1:x}, ${2:y}, ${3:width}, ${4:height});",
+            "${5}"
+        ],
+        "description": "ctx.strokeRect"
+    },
+    "strokeStyle": {
+        "prefix": "ctxStrokeStyle",
+        "body": [
+            "ctx.strokeStyle='${1:color}';",
+            "${2}"
+        ],
+        "description": "ctx.strokeStyle"
+    },
+    "strokeText": {
+        "prefix": "ctxStrokeText",
+        "body": [
+            "ctx.strokeText(${1:text}, ${2:x}, ${3:y}${4:, maxWidth});",
+            "${5}"
+        ],
+        "description": "ctx.strokeText"
+    },
+    "textAlign": {
+        "prefix": "ctxTextAlign",
+        "body": [
+            "ctx.textAlign='${1:start | left | center | right |end}';",
+            "${2}"
+        ],
+        "description": "ctx.textAlign"
+    },
+    "textBaseline": {
+        "prefix": "ctxTextBaseline",
+        "body": [
+            "ctx.textBaseline='${1:top | hanging | middle | alphabetic | ideographic | bottom}';",
+            "${2}"
+        ],
+        "description": "ctx.textBaseline"
+    },
+    "toDataURL": {
+        "prefix": "toDataURL",
+        "body": [
+            "${1}.toDataURL(${2});",
+            "${3}"
+        ],
+        "description": "toDataURL()"
+    },
+    "transform": {
+        "prefix": "ctxTransform",
+        "body": [
+            "ctx.transform(${1:a}, ${2:b}, ${3:c}, ${4:d}, ${5:e}, ${6:f});",
+            "${7}"
+        ],
+        "description": "ctx.transform"
+    },
+    "translate": {
+        "prefix": "ctxTranslate",
+        "body": [
+            "ctx.translate(${1:x}, ${2:y});",
+            "${3}"
+        ],
+        "description": "ctx.translate"
+    }
+}
+}
